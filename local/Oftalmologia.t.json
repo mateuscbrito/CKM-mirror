@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "3.0.0",
+      "sem_ver" : "4.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "f2e5cd28e9b7185437f889a5ddc66202",
+      "MD5-CAM-1.0.1" : "eea6802dcd0441f9cc5dc7fe20ae77e1",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB"
     },
     "details" : {
@@ -1981,6 +1981,12 @@
                 "children" : [ {
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "ELEMENT",
+                  "nodeId" : "at0070.1",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
                   "occurrences" : "0..0",
                   "nodeId" : "at0092.1",
                   "attributes" : [ ],
@@ -2098,6 +2104,39 @@
                   "attributeTuples" : [ ],
                   "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-dosage-001.v2",
                   "referenceType" : "archetypeOverlay"
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      }, {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "protocol",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ITEM_TREE",
+          "nodeId" : "at0005",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "items",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0004.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_IDENTIFIER",
+                  "defaultValue" : {
+                    "@type" : "DV_IDENTIFIER"
+                  },
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
                 } ]
               } ],
               "attributeTuples" : [ ]
