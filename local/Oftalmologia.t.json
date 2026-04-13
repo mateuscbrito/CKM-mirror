@@ -21,7 +21,7 @@
       "custodian_namespace" : "",
       "sem_ver" : "4.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "eea6802dcd0441f9cc5dc7fe20ae77e1",
+      "MD5-CAM-1.0.1" : "65b780b8edc140fe4a2271f55f77e93c",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB"
     },
     "details" : {
@@ -2425,8 +2425,8 @@
                     "lower" : 1,
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "upperUnbounded" : true,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
                   } ]
                 } ]
               } ],
@@ -2502,8 +2502,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   } ]
                 }, {
@@ -2519,8 +2519,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   } ]
                 }, {
@@ -2536,8 +2536,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   } ]
                 }, {
@@ -2553,8 +2553,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   } ]
                 } ]
@@ -2590,8 +2590,8 @@
                     "lower" : "PT0S",
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "upperUnbounded" : true,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
                   } ]
                 } ]
               } ],
@@ -2617,8 +2617,8 @@
                         "lower" : "PT0S",
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -2642,8 +2642,8 @@
                         "lower" : "PT0S",
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -3669,8 +3669,8 @@
                                         "upper" : 20.0,
                                         "lowerIncluded" : true,
                                         "upperIncluded" : true,
-                                        "upperUnbounded" : false,
-                                        "lowerUnbounded" : false
+                                        "lowerUnbounded" : false,
+                                        "upperUnbounded" : false
                                       } ]
                                     } ]
                                   }, {
@@ -3685,9 +3685,18 @@
                                         "upper" : 200.0,
                                         "lowerIncluded" : true,
                                         "upperIncluded" : true,
-                                        "upperUnbounded" : false,
-                                        "lowerUnbounded" : false
+                                        "lowerUnbounded" : false,
+                                        "upperUnbounded" : false
                                       } ]
+                                    } ]
+                                  }, {
+                                    "@type" : "C_ATTRIBUTE",
+                                    "rmAttributeName" : "is_integral",
+                                    "children" : [ {
+                                      "@type" : "C_BOOLEAN",
+                                      "rmTypeName" : "Boolean",
+                                      "occurrences" : "1..1",
+                                      "constraint" : [ true ]
                                     } ]
                                   }, {
                                     "@type" : "C_ATTRIBUTE",
@@ -3695,13 +3704,14 @@
                                     "children" : [ {
                                       "@type" : "C_INTEGER",
                                       "rmTypeName" : "INTEGER",
+                                      "occurrences" : "1..1",
                                       "constraint" : [ {
                                         "lower" : 0,
                                         "upper" : 0,
                                         "lowerIncluded" : true,
                                         "upperIncluded" : true,
-                                        "upperUnbounded" : false,
-                                        "lowerUnbounded" : false
+                                        "lowerUnbounded" : false,
+                                        "upperUnbounded" : false
                                       } ]
                                     } ]
                                   }, {
@@ -3715,8 +3725,8 @@
                                         "upper" : 0,
                                         "lowerIncluded" : true,
                                         "upperIncluded" : true,
-                                        "upperUnbounded" : false,
-                                        "lowerUnbounded" : false
+                                        "lowerUnbounded" : false,
+                                        "upperUnbounded" : false
                                       } ]
                                     } ]
                                   } ],
@@ -3747,8 +3757,8 @@
                                         "upper" : 120,
                                         "lowerIncluded" : true,
                                         "upperIncluded" : true,
-                                        "upperUnbounded" : false,
-                                        "lowerUnbounded" : false
+                                        "lowerUnbounded" : false,
+                                        "upperUnbounded" : false
                                       } ]
                                     } ]
                                   } ],
@@ -3790,8 +3800,8 @@
                                     "upper" : 10,
                                     "lowerIncluded" : true,
                                     "upperIncluded" : true,
-                                    "upperUnbounded" : false,
-                                    "lowerUnbounded" : false
+                                    "lowerUnbounded" : false,
+                                    "upperUnbounded" : false
                                   } ]
                                 } ]
                               } ],
@@ -3821,8 +3831,8 @@
                                     "lower" : 0,
                                     "lowerIncluded" : true,
                                     "upperIncluded" : false,
-                                    "upperUnbounded" : true,
-                                    "lowerUnbounded" : false
+                                    "lowerUnbounded" : false,
+                                    "upperUnbounded" : true
                                   } ]
                                 } ]
                               } ],
@@ -3966,8 +3976,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_INTEGER",
@@ -3977,8 +3987,8 @@
                           "upper" : 1,
                           "lowerIncluded" : true,
                           "upperIncluded" : true,
-                          "upperUnbounded" : false,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : false
                         } ]
                       } ]
                     }, {
@@ -3994,8 +4004,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_INTEGER",
@@ -4005,8 +4015,8 @@
                           "upper" : 1,
                           "lowerIncluded" : true,
                           "upperIncluded" : true,
-                          "upperUnbounded" : false,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : false
                         } ]
                       } ]
                     }, {
@@ -4022,8 +4032,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_INTEGER",
@@ -4033,8 +4043,8 @@
                           "upper" : 1,
                           "lowerIncluded" : true,
                           "upperIncluded" : true,
-                          "upperUnbounded" : false,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : false
                         } ]
                       } ]
                     }, {
@@ -4050,8 +4060,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_INTEGER",
@@ -4061,8 +4071,8 @@
                           "upper" : 1,
                           "lowerIncluded" : true,
                           "upperIncluded" : true,
-                          "upperUnbounded" : false,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : false
                         } ]
                       } ]
                     } ]
@@ -4520,8 +4530,8 @@
                                   "upper" : 1000.0,
                                   "lowerIncluded" : true,
                                   "upperIncluded" : false,
-                                  "upperUnbounded" : false,
-                                  "lowerUnbounded" : false
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
                                 } ]
                               }, {
                                 "@type" : "C_INTEGER",
@@ -4531,8 +4541,8 @@
                                   "upper" : 1,
                                   "lowerIncluded" : true,
                                   "upperIncluded" : true,
-                                  "upperUnbounded" : false,
-                                  "lowerUnbounded" : false
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
                                 } ]
                               } ]
                             } ]
@@ -5072,8 +5082,8 @@
                     "constraint" : [ {
                       "lowerIncluded" : false,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : true
+                      "lowerUnbounded" : true,
+                      "upperUnbounded" : true
                     } ]
                   } ]
                 } ]
@@ -5147,8 +5157,8 @@
                       "upper" : 360.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 } ]
@@ -5206,8 +5216,8 @@
                     "constraint" : [ {
                       "lowerIncluded" : false,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : true
+                      "lowerUnbounded" : true,
+                      "upperUnbounded" : true
                     } ]
                   }, {
                     "@type" : "C_INTEGER",
@@ -5217,8 +5227,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 } ]
@@ -5278,8 +5288,8 @@
                       "upper" : 500.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   }, {
                     "@type" : "C_INTEGER",
@@ -5289,8 +5299,8 @@
                       "upper" : 1,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 } ]
